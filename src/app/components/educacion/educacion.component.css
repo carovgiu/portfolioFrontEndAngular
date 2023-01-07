@@ -1,7 +1,5 @@
-#separador {
-    background-color: #1d181e;
-    height:5px;
-    margin-top: 2%;
+#estudios{
+    background-color: #504856 !important;
 }
 
 #explab{
@@ -17,7 +15,11 @@
     margin-left: 3%;
 }
 
-#trabajos{
-    background-color: #7c539e !important;
-
+#separador {
+    background-color: #1d181e;
+    height:5px;
+    margin-top: 2%;
 }
+
+
+

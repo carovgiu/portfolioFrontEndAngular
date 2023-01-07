@@ -9,6 +9,11 @@ import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcerdaDeComponent } from './components/acerda-de/acerda-de.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { HysskillsComponent } from './components/hysskills/hysskills.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +23,16 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     SocialComponent,
     BannerComponent,
     AcerdaDeComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    EducacionComponent,
+    HysskillsComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
