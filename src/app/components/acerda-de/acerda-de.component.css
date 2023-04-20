@@ -16,8 +16,10 @@ div{
 
 @media (min-width: 376px){
     #fotoPerfil{
-        position: absolute;
         width: 15%;
+        object-fit: cover;
+        object-position: bottom;
+        position: absolute;
         border-radius: 100%;
         left: 1.5%;
         top: 350px;
@@ -33,4 +35,6 @@ div{
         top: 450px;
 
     }
+
+
 }
